@@ -13,7 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Dependencies" Type="Folder">
-			<Item Name="Bronkhorst Flexi-Flow ModbusTCP API.lvlib" Type="Library" URL="../../Modbus Flexi-Flow API/Bronkhorst Flexi-Flow ModbusTCP API.lvlib"/>
+			<Item Name="Bronkhorst Flexi-Flow ModbusTCP API.lvlib" Type="Library" URL="../Modbus Flexi-Flow API/Bronkhorst Flexi-Flow ModbusTCP API.lvlib"/>
 			<Item Name="NewtonsPSM1735.lvlib" Type="Library" URL="../../newtons4th-psm17xx-labview-files/NewtonsPSM1735.lvlib"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
