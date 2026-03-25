@@ -23,15 +23,11 @@
 				<Item Name="Set Voltage SP Argument--cluster.ctl" Type="VI" URL="../Set Voltage SP Argument--cluster.ctl"/>
 				<Item Name="Set Power SP Argument--cluster.ctl" Type="VI" URL="../Set Power SP Argument--cluster.ctl"/>
 				<Item Name="Set Power Supply Plugin Argument--cluster.ctl" Type="VI" URL="../Set Power Supply Plugin Argument--cluster.ctl"/>
-				<Item Name="Get Current Argument--cluster.ctl" Type="VI" URL="../Get Current Argument--cluster.ctl"/>
-				<Item Name="Get Voltage Argument--cluster.ctl" Type="VI" URL="../Get Voltage Argument--cluster.ctl"/>
-				<Item Name="Get Power Argument--cluster.ctl" Type="VI" URL="../Get Power Argument--cluster.ctl"/>
 				<Item Name="Set DC Output Argument--cluster.ctl" Type="VI" URL="../Set DC Output Argument--cluster.ctl"/>
-				<Item Name="Get Status Argument--cluster.ctl" Type="VI" URL="../Get Status Argument--cluster.ctl"/>
-				<Item Name="Get DC Output Status Argument--cluster.ctl" Type="VI" URL="../Get DC Output Status Argument--cluster.ctl"/>
-				<Item Name="Start Polling Power Supply Status Argument--cluster.ctl" Type="VI" URL="../Start Polling Power Supply Status Argument--cluster.ctl"/>
-				<Item Name="Stop Polling Power Supply Status Argument--cluster.ctl" Type="VI" URL="../Stop Polling Power Supply Status Argument--cluster.ctl"/>
-				<Item Name="Initialise Interface Argument--cluster.ctl" Type="VI" URL="../Initialise Interface Argument--cluster.ctl"/>
+				<Item Name="Connect Argument--cluster.ctl" Type="VI" URL="../Connect Argument--cluster.ctl"/>
+				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
+				<Item Name="Set Function Generator State Argument--cluster.ctl" Type="VI" URL="../Set Function Generator State Argument--cluster.ctl"/>
+				<Item Name="Set Function Generator Parameters Argument--cluster.ctl" Type="VI" URL="../Set Function Generator Parameters Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -51,15 +47,11 @@
 			<Item Name="Set Voltage SP.vi" Type="VI" URL="../Set Voltage SP.vi"/>
 			<Item Name="Set Power SP.vi" Type="VI" URL="../Set Power SP.vi"/>
 			<Item Name="Set Power Supply Plugin.vi" Type="VI" URL="../Set Power Supply Plugin.vi"/>
-			<Item Name="Get Current.vi" Type="VI" URL="../Get Current.vi"/>
-			<Item Name="Get Voltage.vi" Type="VI" URL="../Get Voltage.vi"/>
-			<Item Name="Get Power.vi" Type="VI" URL="../Get Power.vi"/>
 			<Item Name="Set DC Output.vi" Type="VI" URL="../Set DC Output.vi"/>
-			<Item Name="Get DC Output Status.vi" Type="VI" URL="../Get DC Output Status.vi"/>
-			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
-			<Item Name="Start Polling Power Supply Status.vi" Type="VI" URL="../Start Polling Power Supply Status.vi"/>
-			<Item Name="Stop Polling Power Supply Status.vi" Type="VI" URL="../Stop Polling Power Supply Status.vi"/>
-			<Item Name="Initialise Interface.vi" Type="VI" URL="../Initialise Interface.vi"/>
+			<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
+			<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+			<Item Name="Set Function Generator State.vi" Type="VI" URL="../Set Function Generator State.vi"/>
+			<Item Name="Set Function Generator Parameters.vi" Type="VI" URL="../Set Function Generator Parameters.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Start Module2.vi" Type="VI" URL="../Start Module2.vi"/>
@@ -84,15 +76,23 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
-				<Item Name="Wake Polling Helper Loop Argument--cluster.ctl" Type="VI" URL="../Wake Polling Helper Loop Argument--cluster.ctl"/>
-				<Item Name="Sleep Polling Helper Loop Argument--cluster.ctl" Type="VI" URL="../Sleep Polling Helper Loop Argument--cluster.ctl"/>
-				<Item Name="Wake Connection Helper Loop Argument--cluster.ctl" Type="VI" URL="../Wake Connection Helper Loop Argument--cluster.ctl"/>
 				<Item Name="Sleep Connection Helper Loop Argument--cluster.ctl" Type="VI" URL="../Sleep Connection Helper Loop Argument--cluster.ctl"/>
+				<Item Name="Wake Connection Helper Loop Argument--cluster.ctl" Type="VI" URL="../Wake Connection Helper Loop Argument--cluster.ctl"/>
+				<Item Name="Set DC Current SP Argument--cluster.ctl" Type="VI" URL="../Set DC Current SP Argument--cluster.ctl"/>
+				<Item Name="Set DC Voltage SP Argument--cluster.ctl" Type="VI" URL="../Set DC Voltage SP Argument--cluster.ctl"/>
+				<Item Name="Set DC Power SP Argument--cluster.ctl" Type="VI" URL="../Set DC Power SP Argument--cluster.ctl"/>
+				<Item Name="Set DC Output SP Argument--cluster.ctl" Type="VI" URL="../Set DC Output SP Argument--cluster.ctl"/>
+				<Item Name="Set Function Generator Parameters SP Argument--cluster.ctl" Type="VI" URL="../Set Function Generator Parameters SP Argument--cluster.ctl"/>
+				<Item Name="Set Function Generator State SP Argument--cluster.ctl" Type="VI" URL="../Set Function Generator State SP Argument--cluster.ctl"/>
 			</Item>
-			<Item Name="Wake Polling Helper Loop.vi" Type="VI" URL="../Wake Polling Helper Loop.vi"/>
-			<Item Name="Sleep Polling Helper Loop.vi" Type="VI" URL="../Sleep Polling Helper Loop.vi"/>
-			<Item Name="Wake Connection Helper Loop.vi" Type="VI" URL="../Wake Connection Helper Loop.vi"/>
 			<Item Name="Sleep Connection Helper Loop.vi" Type="VI" URL="../Sleep Connection Helper Loop.vi"/>
+			<Item Name="Wake Connection Helper Loop.vi" Type="VI" URL="../Wake Connection Helper Loop.vi"/>
+			<Item Name="Set DC Current SP.vi" Type="VI" URL="../Set DC Current SP.vi"/>
+			<Item Name="Set DC Voltage SP.vi" Type="VI" URL="../Set DC Voltage SP.vi"/>
+			<Item Name="Set DC Power SP.vi" Type="VI" URL="../Set DC Power SP.vi"/>
+			<Item Name="Set DC Output SP.vi" Type="VI" URL="../Set DC Output SP.vi"/>
+			<Item Name="Set Function Generator Parameters SP.vi" Type="VI" URL="../Set Function Generator Parameters SP.vi"/>
+			<Item Name="Set Function Generator State SP.vi" Type="VI" URL="../Set Function Generator State SP.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -132,11 +132,17 @@
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
 		<Item Name="DC Output--enum.ctl" Type="VI" URL="../DC Output--enum.ctl"/>
+		<Item Name="Function Generator Parameters--cluster.ctl" Type="VI" URL="../Function Generator Parameters--cluster.ctl"/>
+	</Item>
+	<Item Name="Testers" Type="Folder">
+		<Item Name="Test Power Supply API.vi" Type="VI" URL="../Test Power Supply API.vi"/>
+	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Power Supply Status Cluster to Map.vi" Type="VI" URL="../Power Supply Status Cluster to Map.vi"/>
+		<Item Name="Create Power Supply.vi" Type="VI" URL="../Create Power Supply.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Create Power Supply.vi" Type="VI" URL="../Create Power Supply.vi"/>
-	<Item Name="Power Supply Status Cluster to Map.vi" Type="VI" URL="../Power Supply Status Cluster to Map.vi"/>
-	<Item Name="Test Power Supply API.vi" Type="VI" URL="../Test Power Supply API.vi"/>
+	<Item Name="Setpoints--cluster.ctl" Type="VI" URL="../Setpoints--cluster.ctl"/>
 </Library>

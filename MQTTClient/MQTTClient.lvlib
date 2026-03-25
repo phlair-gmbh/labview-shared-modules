@@ -75,10 +75,12 @@
 				<Item Name="Reset Ping Helper Loop Timeout Argument--cluster.ctl" Type="VI" URL="../Reset Ping Helper Loop Timeout Argument--cluster.ctl"/>
 				<Item Name="Sleep Ping Helper Loop Argument--cluster.ctl" Type="VI" URL="../Sleep Ping Helper Loop Argument--cluster.ctl"/>
 				<Item Name="Register MQTT Client Events Argument--cluster.ctl" Type="VI" URL="../Register MQTT Client Events Argument--cluster.ctl"/>
+				<Item Name="Wake Connection Helper Loop Argument--cluster.ctl" Type="VI" URL="../Wake Connection Helper Loop Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Reset Ping Helper Loop Timeout.vi" Type="VI" URL="../Reset Ping Helper Loop Timeout.vi"/>
 			<Item Name="Sleep Ping Helper Loop.vi" Type="VI" URL="../Sleep Ping Helper Loop.vi"/>
 			<Item Name="Register MQTT Client Events.vi" Type="VI" URL="../Register MQTT Client Events.vi"/>
+			<Item Name="Wake Connection Helper Loop.vi" Type="VI" URL="../Wake Connection Helper Loop.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>

@@ -25,6 +25,7 @@
 				<Item Name="Write TDMS 2D String Array Argument--cluster.ctl" Type="VI" URL="../Write TDMS 2D String Array Argument--cluster.ctl"/>
 				<Item Name="Set Root Folder Path Argument--cluster.ctl" Type="VI" URL="../Set Root Folder Path Argument--cluster.ctl"/>
 				<Item Name="Create New TDMS Log File (Relative Path) Argument--cluster.ctl" Type="VI" URL="../Create New TDMS Log File (Relative Path) Argument--cluster.ctl"/>
+				<Item Name="Set Properties Argument--cluster.ctl" Type="VI" URL="../Set Properties Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -45,6 +46,7 @@
 			<Item Name="Write TDMS 2D String Array.vi" Type="VI" URL="../Write TDMS 2D String Array.vi"/>
 			<Item Name="Set Root Folder Path.vi" Type="VI" URL="../Set Root Folder Path.vi"/>
 			<Item Name="Create New TDMS Log File (Relative Path).vi" Type="VI" URL="../Create New TDMS Log File (Relative Path).vi"/>
+			<Item Name="Set Properties.vi" Type="VI" URL="../Set Properties.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Start Module2.vi" Type="VI" URL="../Start Module2.vi"/>

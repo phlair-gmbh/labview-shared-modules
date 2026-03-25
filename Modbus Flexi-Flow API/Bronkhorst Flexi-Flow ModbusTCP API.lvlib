@@ -50,6 +50,7 @@
 		<Item Name="Fmeasure (F,P1,P2)--cluster.ctl" Type="VI" URL="../Fmeasure (F,P1,P2)--cluster.ctl"/>
 		<Item Name="Valve State--enum.ctl" Type="VI" URL="../Valve State--enum.ctl"/>
 		<Item Name="Safe-State--ring.ctl" Type="VI" URL="../Safe-State--ring.ctl"/>
+		<Item Name="Reset Counter--enum.ctl" Type="VI" URL="../Reset Counter--enum.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Read VIs" Type="Folder">
@@ -86,6 +87,6 @@
 				<Item Name="String to Modbus.vi" Type="VI" URL="../String to Modbus.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Modbus to Integer.vi" Type="VI" URL="../Modbus to Integer.vi"/>
 	</Item>
-	<Item Name="Modbus to Integer.vi" Type="VI" URL="../Modbus to Integer.vi"/>
 </Library>
