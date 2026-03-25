@@ -143,6 +143,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Power Supply Status Cluster to Map.vi" Type="VI" URL="../Power Supply Status Cluster to Map.vi"/>
 		<Item Name="Create Power Supply.vi" Type="VI" URL="../Create Power Supply.vi"/>
+		<Item Name="Handle Connection Error.vi" Type="VI" URL="../Handle Connection Error.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
