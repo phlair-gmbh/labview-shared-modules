@@ -135,6 +135,7 @@
 		<Item Name="Function Generator Parameters--cluster.ctl" Type="VI" URL="../Function Generator Parameters--cluster.ctl"/>
 		<Item Name="Setpoints--cluster.ctl" Type="VI" URL="../Setpoints--cluster.ctl"/>
 		<Item Name="Function Generator State--cluster.ctl" Type="VI" URL="../Function Generator State--cluster.ctl"/>
+		<Item Name="Get Status Argument--cluster.ctl" Type="VI" URL="../Get Status Argument--cluster.ctl"/>
 	</Item>
 	<Item Name="Testers" Type="Folder">
 		<Item Name="Test Power Supply API.vi" Type="VI" URL="../Test Power Supply API.vi"/>
