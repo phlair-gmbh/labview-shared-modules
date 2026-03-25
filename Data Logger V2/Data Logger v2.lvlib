@@ -113,4 +113,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Test Data Logger v2 API.vi" Type="VI" URL="../Test Data Logger v2 API.vi"/>
+	<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 </Library>
