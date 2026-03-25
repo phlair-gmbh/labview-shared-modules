@@ -133,6 +133,8 @@
 	<Item Name="Type Defs" Type="Folder">
 		<Item Name="DC Output--enum.ctl" Type="VI" URL="../DC Output--enum.ctl"/>
 		<Item Name="Function Generator Parameters--cluster.ctl" Type="VI" URL="../Function Generator Parameters--cluster.ctl"/>
+		<Item Name="Setpoints--cluster.ctl" Type="VI" URL="../Setpoints--cluster.ctl"/>
+		<Item Name="Function Generator State--cluster.ctl" Type="VI" URL="../Function Generator State--cluster.ctl"/>
 	</Item>
 	<Item Name="Testers" Type="Folder">
 		<Item Name="Test Power Supply API.vi" Type="VI" URL="../Test Power Supply API.vi"/>
@@ -144,5 +146,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Setpoints--cluster.ctl" Type="VI" URL="../Setpoints--cluster.ctl"/>
 </Library>
