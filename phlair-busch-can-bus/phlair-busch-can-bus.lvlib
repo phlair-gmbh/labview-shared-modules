@@ -4,20 +4,31 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Helpers" Type="Folder">
-		<Item Name="Map Actual Values.vi" Type="VI" URL="../Map Actual Values.vi"/>
-		<Item Name="Map Control Message.vi" Type="VI" URL="../Map Control Message.vi"/>
 		<Item Name="Map Parameter Values.vi" Type="VI" URL="../Map Parameter Values.vi"/>
+		<Item Name="Map Control Message.vi" Type="VI" URL="../Map Control Message.vi"/>
+		<Item Name="Map Actual Values.vi" Type="VI" URL="../Map Actual Values.vi"/>
+		<Item Name="Map Dilico Voltages.vi" Type="VI" URL="../Map Dilico Voltages.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="PumpActuals.ctl" Type="VI" URL="../PumpActuals.ctl"/>
 		<Item Name="PumpControls.ctl" Type="VI" URL="../PumpControls.ctl"/>
+		<Item Name="PumpSessions.ctl" Type="VI" URL="../PumpSessions.ctl"/>
 		<Item Name="PumpStatus.ctl" Type="VI" URL="../PumpStatus.ctl"/>
+		<Item Name="DilicoControls.ctl" Type="VI" URL="../DilicoControls.ctl"/>
+		<Item Name="DilicoValues.ctl" Type="VI" URL="../DilicoValues.ctl"/>
 	</Item>
-	<Item Name="CAN Frame Sessions.ctl" Type="VI" URL="../CAN Frame Sessions.ctl"/>
+	<Item Name="Get stack cell d_voltage status.vi" Type="VI" URL="../Get stack cell d_voltage status.vi"/>
+	<Item Name="Initialise Interface.vi" Type="VI" URL="../Initialise Interface.vi"/>
 	<Item Name="Close Interface.vi" Type="VI" URL="../Close Interface.vi"/>
 	<Item Name="Get Actuals.vi" Type="VI" URL="../Get Actuals.vi"/>
-	<Item Name="Initialise Interface.vi" Type="VI" URL="../Initialise Interface.vi"/>
 	<Item Name="Set Controls.vi" Type="VI" URL="../Set Controls.vi"/>
 	<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
+	<Item Name="Set Dilicon Measurement.vi" Type="VI" URL="../Set Dilicon Measurement.vi"/>
+	<Item Name="Get DiliconMeasurement.vi" Type="VI" URL="../Get DiliconMeasurement.vi"/>
+	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="Initialise CAN Interface.vi" Type="VI" URL="../Initialise CAN Interface.vi"/>
+	<Item Name="CAN Frame Sessions.ctl" Type="VI" URL="../CAN Frame Sessions.ctl"/>
+	<Item Name="TV-STK-01_CAN_Busch_M18_H2_Sensor_DILICO.xml" Type="Document" URL="../TV-STK-01_CAN_Busch_M18_H2_Sensor_DILICO.xml"/>
 </Library>
